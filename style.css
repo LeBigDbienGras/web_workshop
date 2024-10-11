@@ -1,0 +1,98 @@
+* { /* Qui s'applique à tous le éléments */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #99D98C;
+    justify-content: center; /* Centre verticalement */
+    align-items: center; /* Centre horizontalement */
+    position: relative;
+}
+
+
+.big-button {
+    flex-grow: 1;
+    background-color: #1A759F;
+    border: none; /* Supprime la bordure par défaut du bouton */
+    border-radius: 7px;
+    font-size: 2rem;
+    padding: 15px 30px;
+    color: white;
+    cursor: pointer; /* Change le curseur en forme de main au survol */
+    position: absolute;
+    text-align: center; /* Centre le texte horizontalement */
+    transition: background-color 0.3s, transform 0.3s; /* Ajoute une transition douce pour la couleur */
+    text-decoration: none;
+}
+
+.big-button:hover {
+    background-color: #34A0A4; /* Change la couleur de fond au survol */
+    transform: scale(1.02); /* Agrandit légèrement le bouton au survol */
+}
+
+
+.motor-button {
+    flex-grow: 1;
+    padding: 15px 30px;
+    background-color: #1A759F;
+    border: none; /* Supprime la bordure par défaut du bouton */
+    border-radius: 7px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer; /* Change le curseur en forme de main au survol */
+    position: absolute;
+    bottom: 20px; /* Place le bouton moteur à 20 pixels du bas */
+    left: 20px; /* Place le bouton moteur à 20 pixels de la gauche */
+    transition: background-color 0.3s, transform 0.3s; /* Ajoute une transition douce pour la couleur et la transformation */
+}
+
+.motor-button:hover {
+    background-color: #34A0A4; /* Change la couleur de fond au survol */
+    transform: scale(1.02); /* Agrandit légèrement le bouton moteur au survol */
+}
+
+
+.title {
+    color: #2E8B57;
+    text-align: center; /* Centre le texte horizontalement */
+    font-size: 28px;
+    margin-bottom: 350px; /* Ajoute une marge inférieure de 350 pixels */
+}
+
+.light-level {
+    color: #2E8B57;
+    font-size: 22px;
+    position: absolute;
+    top: 70%;
+    text-align: center; /* Centre le texte horizontalement */
+}
+
+
+
+.led-slider {
+    width: 20%; /* Définit la largeur de la jauge à 20% de l'élément parent */
+    margin: 20px 0; /* Ajoute des marges de 20 pixels au-dessus et en dessous*/
+    position: absolute;
+    color: #184E77; /* Définit la couleur du texte à un vert foncé */; /* Définit la couleur du texte à un vert foncé */
+    top: 58%;
+    left: 50%;
+    transform: translateX(-50%); /* Centrer la jauge horizontalement */
+}
+
+
+.light-value {
+    font-size: 24px;
+    color: #184E77;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%); /* Ajuste la position pour centrer horizontalement */
+    text-align: center; /* Centre le texte horizontalement */
+    margin-bottom: 20px;
+}

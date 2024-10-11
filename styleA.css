@@ -1,0 +1,43 @@
+* { /* Qui s'applique à tous le éléments */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centre verticalement */
+    align-items: center; /* centre horizontalement */
+    height: 100vh;
+    background-color: #99D98C; /* Bleu clair */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #1E6091;
+    font-size: 65px;
+    text-align: center; /* centre horizontalement */
+    margin-bottom: 20px;
+}
+p {
+    color: #1E6091;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.enter-button {
+    background-color: #1E6091;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 19.2px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Ajoute une transition couleur */
+    text-decoration: none;
+}
+.enter-button:hover {
+    transform: scale(1.05); /* Agrandit légèrement le bouton au survol */
+    background-color: #1E6091; /* Change couleur de fond au survol */
+}

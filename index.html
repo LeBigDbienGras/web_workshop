@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motor and LED control</title> <!--Titre-->
+    <link rel="stylesheet" href="style.css"> <!--Lien vers le css qui définit l'affichage-->
+</head>
+<body>
+    <h1 class="title">ESP32 Websocket control</h1>  <!--Titre principal-->
+    <a href="Accueil.html" class="big-button">Exit</a>  <!--Bouton EXIT-->
+    <input type="range" class="led-slider" min="0" max="100" value=""> <!-- Jauge luminosité LED -->
+    <p class="light-level">Amount of light in this environment : <span id="light-value">Loading...</span></p> <!-- Valeur de la photorésistance -->
+    <button class="motor-button">Motor control</button> <!-- Bouton contrôle moteur -->
+    <script src="script.js"></script> <!--Lien vers le css qui définit l'affichage-->
+</body>
+</html>
