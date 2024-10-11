@@ -6,14 +6,7 @@ In this project, I coded a website using HTML, CSS, and JavaScript, which intera
 
 
 Some photos:
-![alt text](<WhatsApp Image 2024-10-11 à 18.21.52_2baded8a-1.jpg>)
-![alt text](IMG-20241011-WA0008-1.jpg)
-![alt text](IMG-20241011-WA0009-1.jpg)
-![alt text](IMG-20241011-WA0010-1.jpg)
-![alt text](IMG-20241011-WA0011-1.jpg)
-![alt text](<WhatsApp Image 2024-10-11 à 18.21.52_6f123f2f-1.jpg>)
-![alt text](<WhatsApp Image 2024-10-11 à 18.21.52_48319a43-1.jpg>)
-
+[text](Photos)
 
 Youtube demo:
 https://youtu.be/vh7OnH02ZwA
